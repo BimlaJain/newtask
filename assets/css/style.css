@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.main-heading {
+    font-family: "Outfit", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56.64px;
+    text-align: center;
+    color: black;
+}
+
+.main-pera {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #707070;
+}
+
+.main-heading > span {
+    color: rgba(20, 168, 0, 1);
+}
+
+.max-w-565 {
+    max-width: 565px !important;
+}
+
+.card-heading {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left !important;
+    color: black;
+}
+
+.pt-12 {
+    padding-top: 12px;
+}
+.pb-37{
+    padding-bottom: 37px;
+}
+.pr-29{
+    padding-right: 29px;
+}
+
+.card-time {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left !important;
+    color: rgba(20, 168, 0, 1);
+}
+
+.card-pera {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left !important;
+    color:#707070;
+}
+
+.btn {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left !important;
+    color: black;
+    transition: all 200ms linear ease-in-out;
+}
+.btn:hover{
+    background-color: rgba(20, 168, 0, 1);
+}
+@media (max-width:576px) {
+    .main-heading {
+        font-size: 30px;
+    }
+}
