@@ -82,4 +82,7 @@ width: 16px !important;
     .main-heading {
         font-size: 30px;
     }
+    .pb-sm-20{
+        padding-bottom: 20px !important;
+    }
 }
