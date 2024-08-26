@@ -5,7 +5,7 @@
     font-family: "Outfit", sans-serif;
     font-size: 48px;
     font-weight: 600;
-    line-height: 160% !important;
+    line-height: 116% !important;
     text-align: center;
     color: black;
 }
@@ -17,6 +17,11 @@
     line-height: 24px;
     text-align: center;
     color: #707070;
+}
+
+.card-img {
+    width: 45px !important;
+    height: 45px !important;
 }
 
 .main-heading > span {
@@ -39,10 +44,12 @@
 .pt-12 {
     padding-top: 12px;
 }
-.pb-37{
+
+.pb-37 {
     padding-bottom: 37px;
 }
-.pr-29{
+
+.pr-29 {
     padding-right: 29px;
 }
 
@@ -61,7 +68,12 @@
     font-weight: 400;
     line-height: 25px;
     text-align: left !important;
-    color:#707070;
+    color: #707070;
+
+}
+
+img {
+    object-fit: cover !important;
 }
 
 .card-btn {
@@ -73,16 +85,35 @@
     color: black;
     transition: all 200ms linear ease-in-out;
 }
-.card-btn:hover{
-   svg{
-width: 16px !important;
-   }
+
+.card-btn:hover {
+    color: rgba(20, 168, 0, 1);
+
+    svg {
+        width: 16px !important;
+
+    }
 }
+
 @media (max-width:576px) {
     .main-heading {
         font-size: 30px;
     }
-    .pb-sm-20{
+
+    .pb-sm-20 {
         padding-bottom: 20px !important;
+    }
+
+    .card-btn {
+        text-align: center !important;
+    }
+
+    .card-pera {
+        text-align: center !important;
+    }
+
+    .main-section {
+        display: flex !important;
+        justify-content: center !important;
     }
 }
